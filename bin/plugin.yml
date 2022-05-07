@@ -1,0 +1,21 @@
+name: HideNSeek
+version: 1.0.5
+author: JatinSingh
+main: me.jatinsingh.hns.Main
+description: A custom hide and seek plugin.
+api-version: 1.13
+soft-depend: [Vault]
+
+commands:
+  hns:
+    usage: /<command>
+    aliases: [hidenseek]
+    description: Hide and seek plugin commands.
+    
+permissions:
+  hns.participate:
+    description: Players with this permission can only take part in Hide and Seek gamemode.
+  hns.admin:
+    description: Players with this permission can edit HnS warps/settings.
+  hns.playing:
+    description: Permission given to players playing Hide and seek that moment.
